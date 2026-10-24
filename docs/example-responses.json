@@ -1,0 +1,39 @@
+{
+  "login": {
+    "status": 200,
+    "headers": {
+      "Set-Cookie": "__Secure-better-auth.session_token=...; Max-Age=3600; Path=/; HttpOnly; Secure; SameSite=Lax"
+    },
+    "location": "/meters"
+  },
+  "meters_search": {
+    "data": [
+      {
+        "meterId": "J100000",
+        "serialNo": "SE33962",
+        "make": "HPL",
+        "phaseType": "single",
+        "installStatus": "Decommissioned",
+        "dtCode": "DT-001"
+      }
+    ],
+    "total": 403,
+    "page": 1
+  },
+  "meter_detail": {
+    "data": {
+      "latitude": "26.938961002479868",
+      "longitude": "75.83095696146852"
+    }
+  },
+  "energy": {
+    "data": [
+      {
+        "timestamp": "23/06/2026 23:30",
+        "kwh": "48438.74",
+        "kvah": "52313.84",
+        "voltR": "226"
+      }
+    ]
+  }
+}
